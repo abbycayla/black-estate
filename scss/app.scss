@@ -1,0 +1,65 @@
+.hero {
+    background-image: url(../../images/background-image.jpg);
+    height: 100vh;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+// NAVIGATION
+.nav-container {
+    display: flex;  
+    justify-content: space-around;  
+    height: 50px;                               
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.nav-left li {
+    padding: 50px 50px 50px 50px;
+    border-right: solid 1px black;
+}
+
+.nav-right li {
+    padding: 50px;
+    border-left: solid 1px black;
+}
+
+nav img {
+height: 200px;
+position: fixed;
+    
+}
+
+//NAVIGATION ENDS
+
+.hero p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.2em;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-top: 300px;
+}
+
+
+.about p {
+    text-align: center;
+    padding: 400px;
+}
+
+
+
+
+
+
+
+
+  
