@@ -3,6 +3,7 @@
   height: 100vh;
   width: 100%;
   background-position: 100%;
+  background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
 }
@@ -32,32 +33,29 @@ nav ul {
 
 nav li {
   list-style-type: none;
-  font-size: 1.2em;
+  font-size: 1em;
+  font-family: 'Merriweather', serif;
 }
 
 .nav-left li {
   padding: 50px;
-  border-right: solid 1px black;
+}
+
+.nav-middle {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  font-weight: bold;
+  position: top;
 }
 
 .nav-right li {
   padding: 50px;
-  border-left: solid 1px black;
-}
-
-nav img {
-  height: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
-  padding-top: 100px;
 }
 
 nav li:hover {
-  border: solid 1px black;
-  opacity: .5;
+  color: #9aa168;
+  border-bottom: 1px #9aa168 solid;
+  cursor: pointer;
 }
 
 .hero p {
@@ -82,9 +80,21 @@ nav li:hover {
   font-size: 2em;
 }
 
+.about {
+  background-image: url(../../images/background-image.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  opacity: .8;
+}
+
 .about-content {
   text-align: center;
   padding: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .about p {
@@ -98,9 +108,27 @@ nav li:hover {
   border-radius: 30px;
   padding: 10px 30px;
   font-size: 1em;
-  background-color: grey;
-  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #9aa168;
   font-family: 'Roboto', sans-serif;
+  opacity: .9;
+}
+
+.about button:hover {
+  background-color: #9aa168;
+  color: white;
+  cursor: pointer;
+}
+
+.features {
+  background-image: url(../../images/background-image.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  opacity: .9;
 }
 
 .features-container {
@@ -110,60 +138,65 @@ nav li:hover {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-.features h1 {
+.features h2 {
   text-align: center;
   padding-top: 50px;
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: 'Merriweather', serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .features-wines img {
-  width: 400px;
-  opacity: 0.9;
+  width: 600px;
 }
 
 .features-accomm img {
-  width: 400px;
-  opacity: 0.9;
+  width: 600px;
 }
 
 .features-dining img {
-  width: 400px;
-  opacity: 0.9;
+  width: 600px;
 }
 
-.features-wines h1 {
+.features-wines h2 {
   position: absolute;
-  top: 2650px;
+  top: 2800px;
   text-align: center;
-  padding: 10px 150px;
+  padding: 30px 100px;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.features-accomm h1 {
+.features-accomm h2 {
   position: absolute;
-  top: 2650px;
+  top: 2800px;
   text-align: center;
-  padding: 10px 100px;
+  padding: 30px 100px;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.features-dining h1 {
+.features-dining h2 {
   position: absolute;
-  top: 2650px;
+  top: 2800px;
   text-align: center;
-  padding: 10px 150px;
+  padding: 30px 100px;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.features button {
+.features-wines button {
   position: absolute;
-  top: 2810px;
-  left: 220px;
+  top: 3050px;
+  left: 190px;
   border-radius: 30px;
-  padding: 10px 30px;
-  font-size: 1em;
+  padding: 15px 40px;
+  font-size: 1.2em;
   background-color: rgba(255, 255, 255, 0.8);
   border: none;
   font-family: 'Roboto', sans-serif;
@@ -171,11 +204,11 @@ nav li:hover {
 
 .features-accomm button {
   position: absolute;
-  top: 2810px;
-  left: 855px;
+  top: 3050px;
+  left: 830px;
   border-radius: 30px;
-  padding: 10px 30px;
-  font-size: 1em;
+  padding: 15px 40px;
+  font-size: 1.2em;
   background-color: rgba(255, 255, 255, 0.8);
   border: none;
   font-family: 'Roboto', sans-serif;
@@ -183,14 +216,32 @@ nav li:hover {
 
 .features-dining button {
   position: absolute;
-  top: 2810px;
-  left: 1480px;
+  top: 3050px;
+  left: 1460px;
   border-radius: 30px;
-  padding: 10px 30px;
-  font-size: 1em;
+  padding: 15px 40px;
+  font-size: 1.2em;
   background-color: rgba(255, 255, 255, 0.8);
   border: none;
   font-family: 'Roboto', sans-serif;
+}
+
+.features-wines button:hover {
+  background-color: #9aa168;
+  color: white;
+  cursor: pointer;
+}
+
+.features-accomm button:hover {
+  background-color: #9aa168;
+  color: white;
+  cursor: pointer;
+}
+
+.features-dining button:hover {
+  background-color: #9aa168;
+  color: white;
+  cursor: pointer;
 }
 
 .background {
@@ -216,6 +267,7 @@ nav li:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   border-bottom: 1px solid black;
+  text-align: center;
 }
 
 .footer-contact p {
@@ -228,6 +280,15 @@ nav li:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.footer-logo p {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  font-weight: bold;
+  border-bottom: solid black 1px;
+  padding: 0px 0px 100px 0px;
 }
 
 .footer-social-links {
@@ -242,11 +303,13 @@ nav li:hover {
 }
 
 .link-facebook:hover {
-  opacity: .5;
+  color: #9aa168;
+  cursor: pointer;
 }
 
 .link-instagram:hover {
-  opacity: .5;
+  color: #9aa168;
+  cursor: pointer;
 }
 
 .footer-social button {
@@ -254,17 +317,37 @@ nav li:hover {
   padding: 10px 30px;
   font-size: 1em;
   background-color: white;
-  border: 1px solid green;
+  border: 1px solid #9aa168;
   font-family: 'Roboto', sans-serif;
 }
 
 .footer-social button:hover {
-  background-color: green;
+  background-color: #9aa168;
   color: white;
+  cursor: pointer;
 }
 
-hr {
-  width: 50%;
-  margin-bottom: 80px;
+.hero-vineyards {
+  background-image: url(../../images/background-image.jpg);
+  height: 30vh;
+  width: 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.vineyards-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
+  padding-top: 100px;
+}
+
+.vineyards-content img {
+  width: 400px;
 }
 /*# sourceMappingURL=app.css.map */
