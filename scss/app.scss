@@ -19,6 +19,10 @@ height: 140px;
 z-index: 9999;
 }
 
+nav li a {
+    text-decoration: none;
+}
+
 .nav-container {
     display: flex;  
     justify-content: space-around;  
@@ -41,6 +45,7 @@ nav li {
 }
 
 .nav-middle{
+    padding-top: 30px;
     font-family: 'Playfair Display', serif;
     font-size: 3em;
     font-weight: bold;
@@ -147,13 +152,9 @@ nav li:hover {
 
 // }
 
-.features h2 {
-    text-align: center;
-    padding-top: 50px;
+.features-container h2 {
     font-size: 1.5em;
     font-family: 'Merriweather', serif;
-    display: flex;
-    justify-content: center;
 }
 
 .features-wines img{
@@ -170,25 +171,28 @@ width: 600px;
 
 .features-wines h2{
 position: absolute;
-top: 2800px;
-text-align: center;
-padding: 30px 100px;
+top: 2510px;
+left: 87px;
+// text-align: center;
+padding: 30px 166px;
 background-color: rgba(255, 255, 255, 0.8)
 }
 
 .features-accomm h2{
     position: absolute;
-    top: 2800px;
-    text-align: center;
-    padding: 30px 100px;
+    top: 2510px;
+    left: 722px;
+    // text-align: center;
+    padding: 30px 105px;
     background-color: rgba(255, 255, 255, 0.8)
     }
 
  .features-dining h2{
         position: absolute;
-        top: 2800px;
-        text-align: center;
-        padding: 30px 100px;
+        top: 2510px;
+        left: 1355px;
+        // text-align: center;
+        padding: 30px 163px;
         background-color: rgba(255, 255, 255, 0.8)
         }
 
@@ -196,7 +200,7 @@ background-color: rgba(255, 255, 255, 0.8)
 
 .features-wines button{
     position: absolute;
-    top: 3050px;
+    top: 2740px;
     left: 190px;
     border-radius: 30px;
     padding: 15px 40px;
@@ -208,7 +212,7 @@ background-color: rgba(255, 255, 255, 0.8)
 
 .features-accomm button{
     position: absolute;
-    top: 3050px;
+    top: 2740px;
     left: 830px;
     border-radius: 30px;
     padding: 15px 40px;
@@ -220,7 +224,7 @@ background-color: rgba(255, 255, 255, 0.8)
 
 .features-dining button{
     position: absolute;
-    top: 3050px;
+    top: 2740px;
     left: 1460px;
     border-radius: 30px;
     padding: 15px 40px;
@@ -342,6 +346,8 @@ background-color: rgba(255, 255, 255, 0.8)
 }
 
 
+/////////VINYARDS PAGE
+
 
 .hero-vineyards {
     background-image: url(../../images/background-image.jpg);
@@ -355,17 +361,185 @@ background-color: rgba(255, 255, 255, 0.8)
     
 }
 
+.vineyards {
+    background-image: url(../../images/background-image.jpg);
+    height: 60vh;
+    width: 100%;
+    // width: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed; 
+    opacity: .9;
+}
+
 .vineyards-content {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+  
+
+.vineyards-vineyards {
     display: flex;
     justify-content: space-around;
-    height: 500px;
-    padding-top: 100px;
+    // height: 500px;
+    // padding-top: 70px;
 }
 
 .vineyards-content img {
-    width: 400px;
+    width: 500px;
 }
 
 .vineyards h1 {
+    text-align: center;
+    font-size: 2.3em;
+//   padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.vinyards-content-home h2 {
+    position: absolute;
+    top: 620px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 169px;
+    font-family: 'Merriweather', serif;
+
+   
+}
+
+.vinyards-content-damsteep h2 {
+    position: absolute;
+    top: 620px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 149px;
+    font-family: 'Merriweather', serif;
+
     
+}
+
+.vinyards-content-netherwood h2 {
+    position: absolute;
+    top: 620px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 137px;
+    font-family: 'Merriweather', serif;
+
+
+}
+
+
+
+
+
+/////////CONTACT-FORM
+
+// .hero-contact {
+//     background-image: url(../../images/background-image.jpg);
+//     height: 30vh;
+//     width: 100%;
+//     // width: 100%;
+//     background-position: 100%;
+//     background-repeat: no-repeat;
+//     background-size: 100%;
+//     background-attachment: fixed; 
+    
+// }
+
+
+.hero-contact {
+    background-image: url(../../images/background-image.jpg);
+    height: 30vh;
+    width: 100%;
+    // width: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed; 
+    
+}
+
+// .contact {
+//     background-image: url(../../images/background-image.jpg);
+//     height: 60vh;
+//     width: 100%;
+//     // width: 100%;
+//     background-position: 100%;
+//     background-repeat: no-repeat;
+//     background-size: 100%;
+//     background-attachment: fixed; 
+//     opacity: .9;
+// }
+
+// .contact-form {
+//     background-color: rgba(255, 255, 255, 0.8);
+// }
+
+.contact-page h1{
+    font-size: 2em;
+    text-align: center;
+    padding: 350px 0px 100px 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    height: 500px;
+    
+}
+
+.contact-contacts {
+    display: flex;
+    padding: 0px 100px;
+}
+
+.contact-left {
+padding: 20px 50px;
+}
+
+.contact-right {
+padding: 20px 50px;
+}
+
+.left-tastingroom {
+    padding-bottom: 100px;
+}
+
+.right-office {
+    padding-bottom: 100px;
+}
+
+
+
+.contact-form {
+    padding-top: 5px;
+    width: 500px;
+    // display: flex;
+    // justify-content: center;
+}
+
+.field {
+    padding: 10px 0px;
+}
+
+.contact-form .checkbox{
+padding-bottom: 20px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.contact-form button {
+    border-radius: 30px;
+    padding: 7px 40px;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: #9aa168 1px solid;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-form button:hover{
+    background-color: #9aa168;
+    color: white;
 }
