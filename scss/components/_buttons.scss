@@ -1,0 +1,107 @@
+//////////////////HOME PAGE
+
+.about button {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #9aa168;
+    font-family: 'Roboto', sans-serif;
+    opacity: .9;
+}
+
+.about button:hover {
+    background-color: #9aa168;
+    color: white;
+    cursor: pointer;
+}
+
+
+.features-wines button{
+    position: absolute;
+    top: 2740px;
+    left: 190px;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.features-accomm button{
+    position: absolute;
+    top: 2740px;
+    left: 830px;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.features-dining button{
+    position: absolute;
+    top: 2740px;
+    left: 1460px;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.features-wines button:hover{ 
+    background-color: #9aa168;
+    color: white;
+    cursor: pointer;
+}
+
+.features-accomm button:hover{ 
+    background-color: #9aa168;
+    color: white;
+    cursor: pointer;
+}
+
+.features-dining button:hover{ 
+    background-color: #9aa168;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-social button {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 1em;
+    background-color: white;
+    border: 1px solid #9aa168;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-social button:hover {
+    background-color: #9aa168;
+    color: white;
+    cursor: pointer;
+}
+
+////////////////////VINEYARDS PAGE 
+
+///////////////////DAMSTEEP PAGE
+
+///////////////////CONTACT PAGE
+
+.contact-form button {
+    border-radius: 30px;
+    padding: 7px 40px;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: #9aa168 1px solid;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-form button:hover{
+    background-color: #9aa168;
+    color: white;
+}

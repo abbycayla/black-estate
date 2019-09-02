@@ -1,0 +1,58 @@
+// NAVIGATION
+nav {
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+    height: 140px;
+    z-index: 9999;
+    }
+    
+    .nav-container {
+        display: flex;  
+        justify-content: space-around;  
+        height: 50px;                               
+    }
+    
+    nav ul {
+        display: flex;
+    }
+
+    nav li a{
+        color: #4a4a4a;
+    }
+    
+    nav li {
+        list-style-type: none;
+        font-size: 1em;
+        font-family: 'Merriweather', serif;
+    }
+    
+    .nav-left li {
+        padding: 50px;
+    }
+    
+    .nav-middle{
+        padding-top: 30px;
+        font-family: 'Playfair Display', serif;
+        font-size: 3em;
+        font-weight: bold;
+        position: top;
+    }
+    
+    .nav-right li {
+        padding: 50px;
+    }
+    
+    nav li:hover {
+        color: #9aa168;
+        border-bottom: 1px #9aa168 solid;
+        cursor: pointer;
+    }
+
+    nav li .active  {
+        color: #9aa168;
+        cursor: pointer;
+    }
+    
+    
+    //NAVIGATION ENDS

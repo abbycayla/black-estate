@@ -7,64 +7,9 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed; 
-    
-}
-
-// NAVIGATION
-nav {
-width: 100vw;
-position: fixed;
-background-color: white;
-height: 140px;
-z-index: 9999;
-}
-
-nav li a {
-    text-decoration: none;
-}
-
-.nav-container {
-    display: flex;  
-    justify-content: space-around;  
-    height: 50px;                               
-}
-
-nav ul {
-    display: flex;
-}
-
-nav li {
-    list-style-type: none;
-    font-size: 1em;
-    font-family: 'Merriweather', serif;
-}
-
-.nav-left li {
-    padding: 50px;
-    // border-right: solid 1px black;
-}
-
-.nav-middle{
-    padding-top: 30px;
-    font-family: 'Playfair Display', serif;
-    font-size: 3em;
-    font-weight: bold;
-    position: top;
-}
-
-.nav-right li {
-    padding: 50px;
-    // border-left: solid 1px black;
-}
-
-nav li:hover {
-    color: #9aa168;
-    border-bottom: 1px #9aa168 solid;
-    cursor: pointer;
 }
 
 
-//NAVIGATION ENDS
 
 .hero p {
     display: flex;
@@ -108,22 +53,6 @@ nav li:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
  }
-
-.about button {
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: 1em;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid #9aa168;
-    font-family: 'Roboto', sans-serif;
-    opacity: .9;
-}
-
-.about button:hover {
-    background-color: #9aa168;
-    color: white;
-    cursor: pointer;
-}
 
 .features {
     background-image: url(../../images/background-image.jpg);
@@ -198,59 +127,7 @@ background-color: rgba(255, 255, 255, 0.8)
 
         ///////////NOTE - USE OF LEFT:PX - NOT IDEAL, TRY FLEX
 
-.features-wines button{
-    position: absolute;
-    top: 2740px;
-    left: 190px;
-    border-radius: 30px;
-    padding: 15px 40px;
-    font-size: 1.2em;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
-    font-family: 'Roboto', sans-serif;
-}
 
-.features-accomm button{
-    position: absolute;
-    top: 2740px;
-    left: 830px;
-    border-radius: 30px;
-    padding: 15px 40px;
-    font-size: 1.2em;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
-    font-family: 'Roboto', sans-serif;
-}
-
-.features-dining button{
-    position: absolute;
-    top: 2740px;
-    left: 1460px;
-    border-radius: 30px;
-    padding: 15px 40px;
-    font-size: 1.2em;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
-    font-family: 'Roboto', sans-serif;
-}
-
-.features-wines button:hover{ 
-    background-color: #9aa168;
-    color: white;
-    cursor: pointer;
-}
-
-.features-accomm button:hover{ 
-    background-color: #9aa168;
-    color: white;
-    cursor: pointer;
-}
-
-.features-dining button:hover{ 
-    background-color: #9aa168;
-    color: white;
-    cursor: pointer;
-}
 
 .background {
     background-image: url(../../images/background-image.jpg);
@@ -262,63 +139,7 @@ background-color: rgba(255, 255, 255, 0.8)
     opacity: .8;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
 
-}
-
-.footer-contact h2{
-    padding: 20px 0px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    border-bottom: 1px solid black;
-    text-align: center;
-    
-}
-
-.footer-contact p {
-    font-family: 'Roboto', sans-serif;
-    padding: 10px 0px 0px 0px;
-    
-}
-
-.footer-social h2{
-    padding: 20px 0px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    border-bottom: 1px solid black;
-    text-align: center;
-}
-
-.footer-logo p {
-    font-family: 'Playfair Display', serif;
-    font-size: 3em;
-    font-weight: bold;
-    border-bottom: solid black 1px;
-    padding: 0px 0px 100px 0px;
-}
-
-// .footer-social-icons {
-//     display: flex;
-//     padding-bottom: 30px;
-// }
-
-// .footer-social-icons img {
-//     width: 40px;
-//     padding: 0px 10px;
-// }
-
-.footer-social-links {
-    display: flex;
-}
-
-.footer-social-links p {
-    padding: 0px 5px 10px 5px;
-    font-family: 'Roboto', sans-serif;
-
-}
 
 .link-facebook:hover {
     color: #9aa168;
@@ -330,20 +151,7 @@ background-color: rgba(255, 255, 255, 0.8)
     cursor: pointer;
 }
 
-.footer-social button {
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: 1em;
-    background-color: white;
-    border: 1px solid #9aa168;
-    font-family: 'Roboto', sans-serif;
-}
 
-.footer-social button:hover {
-    background-color: #9aa168;
-    color: white;
-    cursor: pointer;
-}
 
 
 /////////VINYARDS PAGE
@@ -393,7 +201,7 @@ background-color: rgba(255, 255, 255, 0.8)
     text-align: center;
     font-size: 2.3em;
 //   padding-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
+font-family: 'Merriweather', serif;
   font-weight: 300;
 }
 
@@ -530,16 +338,61 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-.contact-form button {
-    border-radius: 30px;
-    padding: 7px 40px;
-    font-size: 1.2em;
+
+
+
+////////////////////DAMSTEEP PAGE
+
+
+
+.damsteep {
+        background-image: url(../../images/damsteep.png);
+        height: 110vh;
+        width: 100%;
+        // width: 100%;
+        background-position: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed; 
+        opacity: .8;
+
+    }
+
+
+.damsteep-content {
+    // height: 600px;
     background-color: rgba(255, 255, 255, 0.8);
-    border: #9aa168 1px solid;
-    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    margin-left: 150px;
+    padding: 50px;
+    padding-top: 250px;
 }
 
-.contact-form button:hover{
-    background-color: #9aa168;
-    color: white;
+.damsteep-content h1 {
+    font-size: 2.3em;
+  padding-bottom: 35px;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
 }
+
+.content-para-one {
+    font-size: 1.8em;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.content-para-two {
+    font-size: 1.8em;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+///COMPONENTS
+@import './components/footer';
+@import './components/nav';
+@import './components/buttons';
+
+
