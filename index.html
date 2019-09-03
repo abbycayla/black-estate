@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/app.min.css">
+    <script src="app.js"></script>
     
 </head>
 
@@ -20,7 +22,7 @@
   <nav>
       <div class="nav-container">
       <ul class="nav-left">
-          <li> WINES </li>
+          <li class="i"> WINES </li>
           <li> DINING </li>
           <li> ACCOMMODATION </li>
       </ul>
@@ -38,13 +40,15 @@
               <a href="index_3.html" >CONTACT </a>
             </li>                 
       </ul>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
     </div>
   </nav>
   <p> Black Estate is a remarkable <br /> place for wine.</p>
 </div>
-   </section>
 
-   <p> hello</p>
+   </section>
 
 
    <section class="about">
@@ -52,7 +56,9 @@
        <div class="about-content">
            <!-- <h1> Who we do </h1> -->
             <p> We're set on making our wines true to the <br /> place they grow. The wine making is simple- <br /> good estate grown fruit, organic and biodynamic <br /> hand-picked, vineyard derived yeasts, no additives <br/> or fining, minimal sulfur at bottling and <br /> where possible, no filtration. Then we have character.</p>
-            <button> Our Vineyards </button>
+            <button> 
+                    <a href="index_2.html"> Our Vineyards </a>
+            </button>
         </div>
 </section>
 
@@ -65,7 +71,7 @@
         <div class="features-wines">
             <img src="images/wines.png">
             <h2> Wines </h2>
-            <button> Find Out More </button>
+            <button>  Find Out More </button>
         </div>
         <div class="features-accomm">
                 <img src="images/accomm.png">
@@ -113,6 +119,13 @@
         </div>
     </div>
 </footer>
+
+
+
+
+
+
 </body>
 
 </html>
+

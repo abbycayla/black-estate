@@ -1,27 +1,9 @@
-let intro = document.querySelector(".info__intro");
-let device = document.querySelector(".info__device");
-let title = document.querySelector(".peekaboo__title");
-
-// Waypoints
-
-var waypoint1 = new Waypoint({
-  element: document.querySelector(".info"),
-  handler: function(direction) {
-    if (direction === "down") {
-      intro.classList.add("fade-in-left");
-      setTimeout(function() {
-        device.classList.add("fade-in-up");
-      }, 500);
-    }
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("list");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
   }
-});
-
-new Waypoint({
-  element: document.querySelector(".peekaboo"),
-  handler: function(direction) {
-    if (direction === "down") {
-      title.classList.add("fadeInLeft")
-      title.style.display = 'block'
-    }
-  }
-});
+}

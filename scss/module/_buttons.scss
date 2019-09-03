@@ -8,6 +8,7 @@
     border: 1px solid #9aa168;
     font-family: 'Roboto', sans-serif;
     opacity: .9;
+    color: #4a4a4a;    
 }
 
 .about button:hover {
@@ -71,6 +72,7 @@
     cursor: pointer;
 }
 
+///////////////////FOOTER
 .footer-social button {
     border-radius: 30px;
     padding: 10px 30px;
@@ -89,9 +91,22 @@
 ////////////////////VINEYARDS PAGE 
 
 ///////////////////DAMSTEEP PAGE
+.damsteep-content button {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #9aa168;
+    font-family: 'Roboto', sans-serif;
+}
+
+.damsteep-content button:hover {
+    background-color: #9aa168;
+    color: white;
+    cursor: pointer;
+}
 
 ///////////////////CONTACT PAGE
-
 .contact-form button {
     border-radius: 30px;
     padding: 7px 40px;
