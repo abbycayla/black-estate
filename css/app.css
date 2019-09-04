@@ -198,6 +198,10 @@ nav li .active {
   display: none;
 }
 
+.nav-logo {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   a {
     text-decoration: none;
