@@ -1,0 +1,190 @@
+.hero p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.2em;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding-top: 500px;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+
+//////////ABOUT SECTION
+
+/// Main styles
+
+.about {
+  background-image: url(../../images/background-image.jpg);
+  height: 70vh;
+  width: 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  opacity: 0.8;
+}
+
+.about-content {
+  text-align: center;
+  padding: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+///Type styles
+
+.about p {
+  font-size: 2.3em;
+  padding-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.about-content h1 {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  font-size: 2em;
+}
+
+//////////FEATURES SECTION
+
+/// Main styles
+
+.features {
+  background-image: url(../../images/background-image.jpg);
+  height: 80vh;
+  width: 100%;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+///Type styles
+
+.features-container h2 {
+  font-size: 1.5em;
+  font-family: "Merriweather", serif;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.features-wines h2 {
+  top: 2320px;
+  left: 87px;
+  padding: 30px 166px;
+}
+
+.features-accomm h2 {
+  top: 2320px;
+  left: 722px;
+  padding: 30px 105px;
+}
+
+.features-dining h2 {
+  top: 2320px;
+  left: 1355px;
+  padding: 30px 163px;
+}
+
+///Image styles
+
+.features-container img {
+  width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  ///Hero Section
+
+  .background {
+    display: none;
+  }
+
+  .hero p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-top: 400px;
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+  }
+
+  ///About Section  
+
+  .about-content h1 {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    font-size: 2em;
+  }
+
+  .about-content {
+    text-align: center;
+    padding: 100px;
+    background-color: white;
+  }
+
+  .about p {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+
+  ///Features Section
+
+  .features-container {
+    height: 1000px;
+  }
+
+  .features-container h2 {
+    font-size: 1.5em;
+    font-family: "Merriweather", serif;
+  }
+
+  .features-wines img {
+    width: 600px;
+  }
+
+  .features-accomm img {
+    width: 600px;
+  }
+
+  .features-dining img {
+    width: 600px;
+  }
+
+  .features-wines h2 {
+    top: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .features-accomm h2 {
+    position: absolute;
+    top: 2510px;
+    left: 722px;
+    text-align: center;
+    padding: 30px 105px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .features-dining h2 {
+    position: absolute;
+    top: 2510px;
+    left: 1355px;
+    text-align: center;
+    padding: 30px 163px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+

@@ -1,9 +1,22 @@
+///Main styles
+
+.footer-social button {
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 1em;
+  background-color: white;
+  border: 1px solid #9aa168;
+  font-family: 'Roboto', sans-serif;
+}
+
 .footer-content {
     display: flex;
     justify-content: space-around;
     padding: 50px;
 
 }
+
+///Type styles
 
 .footer-contact h2{
     padding: 20px 0px;
@@ -36,6 +49,8 @@
     padding: 0px 0px 100px 0px;
 }
 
+///Link styles
+
 .footer-social-links {
     display: flex;
 }
@@ -46,53 +61,71 @@
 
 }
 
+///Hover styles
+
+.link-facebook:hover {
+    color: #9aa168;
+    cursor: pointer;
+}
+
+.link-instagram:hover {
+    color: #9aa168;
+    cursor: pointer;
+}
+
+.footer-social button:hover {
+  background-color: #9aa168;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+////////////////// RESPONSIVE 
 
 @media only screen and (max-width: 600px) {
     .footer-content {
-        display: flex;
-        justify-content: space-around;
-        padding: 50px;
-    
+      display: flex;
+      flex-direction: column;
     }
-    
-    .footer-contact h2{
-        padding: 20px 0px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        border-bottom: 1px solid black;
-        text-align: center;
-        
+  
+    .footer-contact h2 {
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      border-bottom: 1px solid black;
+      text-align: center;
     }
-    
+  
     .footer-contact p {
-        font-family: 'Roboto', sans-serif;
-        padding: 10px 0px 0px 0px;
-        
+      font-family: "Roboto", sans-serif;
+      padding: 10px 0px 0px 0px;
+      font-size: 0.7em;
+      text-align: center;
     }
-    
-    .footer-social h2{
-        padding: 20px 0px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        border-bottom: 1px solid black;
-        text-align: center;
+  
+    .footer-social h2 {
+      padding: 40px 0px 10px 0px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      text-align: center;
+      font-size: 1em;
     }
-    
+  
     .footer-logo p {
-        font-family: 'Playfair Display', serif;
-        font-size: 3em;
-        font-weight: bold;
-        border-bottom: solid black 1px;
-        padding: 0px 0px 100px 0px;
+      display: none;
     }
-    
+  
     .footer-social-links {
-        display: flex;
+      display: flex;
+      justify-content: center;
     }
-    
+  
     .footer-social-links p {
-        padding: 22px 5px 22px 5px;
-        font-family: 'Roboto', sans-serif;
-    
+      padding: 22px 5px 30px 5px;
+      font-family: "Roboto", sans-serif;
+      font-size: 0.7em;
+      text-align: center;
     }
-}
+  }
+  

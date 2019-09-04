@@ -1,0 +1,59 @@
+/// Main Styles
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    height: 500px;
+    
+}
+
+.contact-page h1{
+    font-size: 2em;
+    text-align: center;
+    padding: 200px 0px 100px 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/// Form Styles 
+
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 5px;
+    width: 500px;
+}
+
+.field {
+    padding: 10px 0px;
+}
+
+.contact-form .checkbox{
+padding-bottom: 20px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+/// Contact Styles
+
+.contact-contacts {
+    display: flex;
+    padding: 0px 100px;
+}
+
+.contact-left {
+padding: 20px 50px;
+}
+
+.contact-right {
+padding: 20px 50px;
+}
+
+.left-tastingroom {
+    padding-bottom: 100px;
+}
+
+.right-office {
+    padding-bottom: 100px;
+}
+

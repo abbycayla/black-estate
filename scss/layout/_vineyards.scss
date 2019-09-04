@@ -1,0 +1,90 @@
+///Main styles
+
+.vineyards {
+    background-image: url(../../images/background-image.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed; 
+    opacity: .9;
+}
+
+.vineyards-content {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.vineyards-vineyards {
+    display: flex;
+    justify-content: space-around;
+    height: 550px;
+    padding-bottom: 100px;
+}
+
+input .checkbox {
+    display: none;
+}
+
+///Image styles
+
+.vineyards-content img {
+    width: 500px;
+}
+
+///Type styles
+
+.vineyards h1 {
+    padding-top: 190px;
+    text-align: center;
+    font-size: 2.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.vinyards-content-home h2 {
+    position: absolute;
+    top: 510px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 177px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+}
+
+.vinyards-content-damsteep h2 {
+    position: absolute;
+    top: 510px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 158px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    color: #4a4a4a;
+}
+
+.vinyards-content-netherwood h2 {
+    position: absolute;
+    top: 510px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px 147px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+}
+
+///Hover styles
+
+.vinyards-content-home h2:hover {
+    color: #9aa168; 
+    cursor: pointer;
+}
+
+.vinyards-content-damsteep h2:hover {
+    color: #9aa168; 
+    cursor: pointer;
+}
+
+.vinyards-content-netherwood h2:hover {
+    color: #9aa168; 
+    cursor: pointer;
+}
+
+

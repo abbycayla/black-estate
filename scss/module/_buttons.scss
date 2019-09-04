@@ -7,32 +7,39 @@
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid #9aa168;
     font-family: 'Roboto', sans-serif;
-    opacity: .9;
-    color: #4a4a4a;    
+    opacity: .9;  
+}
+
+.about button a {
+    color: #4a4a4a;
+    text-decoration: none;
 }
 
 .about button:hover {
     background-color: #9aa168;
-    color: white;
     cursor: pointer;
 }
 
+.about button a:hover {
+    color: white;
+}
 
 .features-wines button{
     position: absolute;
-    top: 2740px;
+    top: 2540px;
     left: 190px;
     border-radius: 30px;
     padding: 15px 40px;
     font-size: 1.2em;
-    background-color: rgba(255, 255, 255, 0.8);
     border: none;
     font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .features-accomm button{
     position: absolute;
-    top: 2740px;
+    top: 2540px;
     left: 830px;
     border-radius: 30px;
     padding: 15px 40px;
@@ -40,11 +47,12 @@
     background-color: rgba(255, 255, 255, 0.8);
     border: none;
     font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
 }
 
 .features-dining button{
     position: absolute;
-    top: 2740px;
+    top: 2540px;
     left: 1460px;
     border-radius: 30px;
     padding: 15px 40px;
@@ -52,6 +60,7 @@
     background-color: rgba(255, 255, 255, 0.8);
     border: none;
     font-family: 'Roboto', sans-serif;
+    color: #4a4a4a;
 }
 
 .features-wines button:hover{ 
@@ -72,6 +81,55 @@
     cursor: pointer;
 }
 
+
+
+
+///////////////////DAMSTEEP PAGE
+.damsteep-content button {
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #9aa168;
+    font-family: 'Roboto', sans-serif;
+}
+
+.damsteep-content button a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+.damsteep-content button:hover {
+    background-color: #9aa168;
+    cursor: pointer;
+}
+
+.damsteep-content button a:hover {
+    color: white;
+}
+
+
+
+
+
+///////////////////CONTACT PAGE
+.contact-form button {
+    border-radius: 30px;
+    padding: 7px 40px;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: #9aa168 1px solid;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-form button:hover{
+    background-color: #9aa168;
+    color: white;
+}
+
+
+
+
 ///////////////////FOOTER
 .footer-social button {
     border-radius: 30px;
@@ -88,35 +146,54 @@
     cursor: pointer;
 }
 
-////////////////////VINEYARDS PAGE 
 
-///////////////////DAMSTEEP PAGE
-.damsteep-content button {
-    border-radius: 30px;
-    padding: 10px 30px;
-    font-size: 1em;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid #9aa168;
-    font-family: 'Roboto', sans-serif;
-}
 
-.damsteep-content button:hover {
-    background-color: #9aa168;
-    color: white;
-    cursor: pointer;
-}
+//////////////////// RESPONSIVE BUTTONS
+@media only screen and (max-width: 600px) {
+    .footer-social button {
+        border-radius: 30px;
+        padding: 10px 30px;
+        font-size: .7em;
+        background-color: white;
+        border: 1px solid #9aa168;
+        font-family: 'Roboto', sans-serif;
+        display: block;
+        margin: auto;
+    }
 
-///////////////////CONTACT PAGE
-.contact-form button {
-    border-radius: 30px;
-    padding: 7px 40px;
-    font-size: 1.2em;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: #9aa168 1px solid;
-    font-family: 'Roboto', sans-serif;
-}
-
-.contact-form button:hover{
-    background-color: #9aa168;
-    color: white;
+    .features-wines button{
+        position: absolute;
+        top: 2000px;
+        left: 190px;
+        border-radius: 30px;
+        padding: 15px 40px;
+        font-size: 1.2em;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: none;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .features-accomm button{
+        position: absolute;
+        top: 2009px;
+        left: 199px;
+        border-radius: 30px;
+        padding: 15px 40px;
+        font-size: 1.2em;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: none;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .features-dining button{
+        position: absolute;
+        top: 2019px;
+        left: 197px;
+        border-radius: 30px;
+        padding: 15px 40px;
+        font-size: 1.2em;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: none;
+        font-family: 'Roboto', sans-serif;
+    }
 }
